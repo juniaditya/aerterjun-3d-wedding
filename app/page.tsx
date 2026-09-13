@@ -69,7 +69,7 @@ export default function Home() {
     </header>
 
     <section className="hero" id="top">
-      <Image className="hero-image" src="/images/project-dark-gold.png" alt="Luxury black and gold wedding stage visualization" fill priority sizes="100vw" />
+      <Image className="hero-image" src="/images/hero.webp" alt="Luxury black and gold wedding stage visualization" fill priority sizes="100vw" />
       <div className="hero-scrim" />
       <div className="hero-content">
         <p className="eyebrow hero-reveal">3D Wedding Visualization</p>
@@ -94,7 +94,7 @@ export default function Home() {
     </section>
 
     <section className="value section">
-      <div className="value-image reveal"><Image src="/images/project-burgundy.png" alt="Burgundy wedding hall visualization" fill sizes="(max-width: 800px) 100vw, 48vw" /></div>
+      <div className="value-image reveal"><Image src="/images/why-visualization.webp" alt="Burgundy wedding hall visualization" fill sizes="(max-width: 800px) 100vw, 48vw" /></div>
       <div className="value-copy reveal"><p className="eyebrow">02 / Why Visualization</p><h2>Make Your Concept<br/><em>Easier to See.</em></h2><p className="lead">{c.whyBody}</p>
         {c.values.map((item, index) => <div className="value-item" key={item[0]}><span>0{index + 1}</span><div><h3>{item[0]}</h3><p>{item[1]}</p></div></div>)}
       </div>
@@ -119,7 +119,7 @@ export default function Home() {
     </section>
 
     <section className="final-cta">
-      <Image src="/images/project-ivory.png" alt="Ivory sunset wedding pavilion visualization" fill sizes="100vw" />
+      <Image src="/images/final-cta.webp" alt="Ivory sunset wedding pavilion visualization" fill sizes="100vw" />
       <div className="final-scrim" />
       <div className="final-content reveal"><p className="eyebrow">Start a Conversation</p><h2>Have a Wedding Concept in Mind?<br/><em>Let's Visualize It.</em></h2><p>{c.finalBody}</p><ArrowLink href={wa}>{c.discuss}</ArrowLink></div>
     </section>
